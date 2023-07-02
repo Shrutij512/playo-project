@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +12,7 @@
     <link rel="stylesheet" href="./styles/footer.css">
     <title>Index</title>
 </head>
+
 <body>
 
     <!-- Main container  start-->
@@ -32,17 +34,17 @@
             <!-- Download Playo app from google play -->
             <div class="download_inner">
                 <a href="https://play.google.com/store/apps/details?id=com.techmash.playo">
-                    <img class="app_download_image" src="https://playo-website.gumlet.net/download/google-play-new.png?auto=compress,format" alt="Google-play">
+                    <img class="app_download_image" src="https://playo.co/_next/image?url=https%3A%2F%2Fplayo-website.gumlet.io%2Fplayo-website-v2%2Fstatic_pages%2FPlay%2Bstore.png&w=1920&q=75?auto=compress,format" alt="Google-play">
                 </a>
             </div>
 
             <!-- Download Playo app from apple play store -->
             <div class="download_inner">
                 <a href="https://apps.apple.com/us/app/playo-local-sports-community/id1018786950?ls=1">
-                    <img class="app_download_image" src="https://playo-website.gumlet.net/download/app-store-new.png?auto=compress,format" alt="Apple-store">
+                    <img class="app_download_image" src="https://playo.co/_next/image?url=https%3A%2F%2Fplayo-website.gumlet.io%2Fplayo-website-v2%2Fstatic_pages%2Fapple-padding-2x.png&w=1920&q=75?auto=compress,format" alt="Apple-store">
                 </a>
             </div>
-        
+
         </div>
 
     </div>
@@ -53,18 +55,13 @@
     <!-- footer container end -->
 
 </body>
+
 </html>
 
 <!-- script start -->
 <script type="module">
-    import navbar from "./components/navbar.js"
-    import footer from "./components/footer.js"
-
-    let container = document.querySelector("#footer");
-    container.innerHTML = footer();
-
-    let navbar_container = document.getElementById("navbar_container");
-    navbar_container.innerHTML = navbar();
+    import navbar from "./components/navbar.js" ; import footer from "./components/footer.js" ; let container = document.querySelector("#footer"); container.innerHTML = footer(); let navbar_container = document.getElementById("navbar_container"); navbar_container.innerHTML=
+    navbar();
 
 </script>
 <!-- script end -->
